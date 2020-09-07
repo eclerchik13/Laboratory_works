@@ -22,3 +22,28 @@
    22  cat > lab1_history.txt
    23  git remote
    24  history > lab1_history.txt
+   25  get status
+   26  git status
+   27  git add lab1_history.txt 
+   28  git status
+   29  git commit -m 'Added lab1_history.txt'
+   30  git commit -m "added new file"
+   31  git config --glbal user.email "ler.poter2014@yandex.ru"
+   32  git config --global user.email "ler.poter2014@yandex.ru"
+   33  git config --global user.name "eclerchik13@
+git config --global user.name "eclerchik13"
+ls
+   34  it config --global user.name "eclerchik13"
+   35  git config --global user.name "eclerchik13"
+   36  git commit -m "added new file"
+   37  git push -u origin master
+   38  git add lab1_history.txt 
+   39  git commit -m "create new file"
+   40  git push origin master
+   41  git config credential.helper cache
+   42  git remote -v
+   43  git remote sel-url origin git@github.com:eclerchik13/Laboratory_works.git
+   44  git remote set-url origin git@github.com:eclerchik13/Laboratory_works.git
+   45  git remote -v
+   46  git push origin master
+   47  history > lab1_history.txt 
