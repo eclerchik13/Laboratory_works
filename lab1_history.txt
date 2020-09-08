@@ -1,0 +1,1 @@
+    1  history > lab1_history.txt 
