@@ -1,0 +1,61 @@
+    1  cd ~
+    2  mkdir test
+    3  ls
+    4  cd test/
+    5  touch file
+    6  ls -l file | cat -d -f1
+    7  ls -l file | cut -d -f1
+    8  ls -l file | cut -d' ' -f1
+    9  ls -l file 
+   10  cd !
+   11  cd ~
+   12  ls
+   13  cd ..
+   14  ls
+   15  cd student/
+   16  ls
+   17  git config --global --edit
+   18  chmod a-rwx file
+   19  cd test/
+   20  chmod a-rwx file 
+   21  echo 'тест' > file 
+   22  cat file 
+   23  chmod u+w file
+   24  ll file 
+   25  echo 'тест' > file 
+   26  cat file 
+   27  chmod g+r file
+   28  ll file 
+   29  cat file 
+   30  chmod u+r file
+   31  ls -l file 
+   32  cat file 
+   33  mkdir dir
+   34  ls
+   35  cd dir/
+   36  touch new_file
+   37  ls
+   38  echo "file 2" > new_file 
+   39  cd ..
+   40  ll dir
+   41  chmod a-x dir/
+   42  ll dir
+   43  cd dir
+   44  ls
+   45  cd dir/new_file
+   46  rm dir/new_file
+   47  chown root file 
+   48  chown :root file 
+   49  umask
+   50  umask 077
+   51  touch file1
+   52  ll file1
+   53  umask 000
+   54  touch file2
+   55  ll file2
+   56  ls -lR
+   57  history
+   58  ls -lR > lab2_one.txt
+   59  sudo ls -lR > lab2_one.txt 
+   60  cat lab2_one.txt 
+   61  history > lab2_two.txt 

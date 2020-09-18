@@ -1,0 +1,11 @@
+.:
+итого 8
+drw-rw-r--. 2 student student 4096 сен 18 07:44 dir
+-r--r-----. 1 root    student    9 сен 18 07:41 file
+-rw-------. 1 student student    0 сен 18 08:05 file1
+-rw-rw-rw-. 1 student student    0 сен 18 08:08 file2
+-rw-rw-rw-. 1 student student    0 сен 18 08:49 lab2_one.txt
+
+./dir:
+итого 4
+-rw-rw-r--. 1 student student 7 сен 18 07:45 new_file
